@@ -12,7 +12,7 @@ const ProductSlider = () => {
     const fetchProducts = async () => {
       try {
         const response = await fetch(
-          `${import.meta.env.VITE_BACKEND_BASE_URL}/api/shops?populate=*`
+          "http://localhost:1337/api/shops?populate=*"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch products");
@@ -45,7 +45,7 @@ const ProductSlider = () => {
   // Slider settings
   const sliderSettings = {
     dots: true,
-    infinite: true  ,
+    infinite: true,
     speed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -83,13 +83,19 @@ const ProductSlider = () => {
           <Slider {...sliderSettings}>
             {products.map((product) => (
               <div key={product.id} className="cardSlider mt-4">
-                <div className="product-card flex flex-col gap-4 justify-center text-center items-center  mx-auto p-4">
-                  <img
-                    className="hover:scale-[1.025] w-24  h-auto transition-all object-contain object-center duration-300"
-                    src={`http://localhost:1337${product.imageUrl}`}
-                    alt={product.name}
-                  />
-                  <div className="pb-4">
+                <div className="product-card flex flex-col gap-4 justify-center text-center items-center mx-auto p-4 bg-white">
+                  <div className="w-40 h-36 rounded-full flex justify-center items-center bg-gold-100 shadow-xl border-4 border-white relative">
+                    {/* Circular lighting effect */}
+                    <div className="absolute top-0 left-0 rotate-90 right-0 bottom-0 rounded-full bg-gradient-to-r from-red-500 to-transparent"></div>
+                    {/* Product image */}
+                    <img
+                      className="hover:scale-[1.025] w-28 h-auto transition-all object-contain object-center duration-300 z-10"
+                      src={`http://localhost:1337${product.imageUrl}`}
+                      alt={product.name}
+                    />
+                  </div>
+
+                  <div className="mt-2 pb-4">
                     <a
                       href={`/shop/${product.id}`}
                       className="text-lg uppercase text-center font-semibold tracking-tight text-gray-700 hover:text-gold-100 transition-colors duration-300 cursor-pointer"
