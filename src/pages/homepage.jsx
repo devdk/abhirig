@@ -195,12 +195,12 @@ const HomePage = () => {
         />
       </div>
       <Section />
+      <Product />
       <ProductSlider/>
       <Feature />
-      <Pricing />
       <Video/>
-      <Product />
       <Element/>
+      <Pricing />
       <Footer />
     </>
   );
