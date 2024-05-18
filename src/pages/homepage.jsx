@@ -197,8 +197,8 @@ const HomePage = () => {
       <Section />
       <Product />
       <ProductSlider/>
-      <Feature />
       <Element/>
+      <Feature />
       <Video/>
       <Pricing />
       <Footer />
