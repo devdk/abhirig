@@ -171,7 +171,7 @@ const HomePage = () => {
 
         <img
           ref={itemRef}
-          src={product}
+          src={features_product01}
           title="SKU1"
           id="sku1"
           alt="P1"
@@ -179,7 +179,7 @@ const HomePage = () => {
         />
         <img
           ref={itemRef2}
-          src={product}
+          src={features_product01}
           title="SKU2"
           id="sku2"
           alt="P2"
@@ -187,7 +187,7 @@ const HomePage = () => {
         />
         <img
           ref={itemRef3}
-          src={product}
+          src={features_product01}
           title="SKU3"
           id="sku3"
           alt="P3"
