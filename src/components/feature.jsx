@@ -55,7 +55,7 @@ const Feature = () => {
             <div className="bg-gray-100 h-full p-6 rounded-lg flex flex-col">
               <img
                 className="h-48 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/720x400"
+                src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/products/features_product01.png"
                 alt="content"
               />
               <h3 className="tracking-widest text-darkGreen text-xs font-medium title-font">
@@ -75,7 +75,7 @@ const Feature = () => {
             <div className="bg-gray-100 h-full p-6 rounded-lg flex flex-col">
               <img
                 className="h-48 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/721x401"
+                src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/products/features_product01.png"
                 alt="content"
               />
               <h3 className="tracking-widest text-darkGreen text-xs font-medium title-font">
@@ -95,7 +95,7 @@ const Feature = () => {
             <div className="bg-gray-100 h-full p-6 rounded-lg flex flex-col">
               <img
                 className="h-48 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/722x402"
+                src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/products/features_product01.png"
                 alt="content"
               />
               <h3 className="tracking-widest text-darkGreen text-xs font-medium title-font">
