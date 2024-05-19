@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loader from "./loader";
 import Slider from "react-slick";
-import Footer from "./footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -75,19 +74,22 @@ const ProductSlider = () => {
   return (
     <>
       <div className="container flex flex-col mx-auto py-24">
-        <h1 class="mb-10 uppercase text-2xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">
+        <h1 className="mb-10 uppercase text-2xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">
           Discover our
-          <span class="text-gold-100"> all range.. </span>
+          <span className="text-gold-100"> all range.. </span>
         </h1>
         {products.length > 0 ? (
           <Slider {...sliderSettings}>
-            {products.map((product) => (
+            {products.map((product, index) => (
               <div key={product.id} className="cardSlider mt-4">
                 <div className="product-card flex flex-col gap-4 justify-center text-center items-center mx-auto p-4 bg-white">
-                  <div className="w-40 h-36 rounded-full flex justify-center items-center bg-gold-100 shadow-xl border-4 border-white relative">
-                    {/* Circular lighting effect */}
-                    <div className="absolute top-0 left-0 rotate-90 right-0 bottom-0 rounded-full bg-gradient-to-r from-red-500 to-transparent"></div>
-                    {/* Product image */}
+                  <div
+                    className={`w-40 h-36 rounded-full flex justify-center items-center ${
+                      index % 2 === 0 ? "bg-yellow-400" : "bg-indigo-400"
+                    } shadow-xl border-4 border-white relative`}
+                  >
+                    <div className="absolute top-0 left-0 rotate-90 right-0 bottom-0 rounded-full bg-gradient-to-r from-white to-transparent"></div>
+
                     <img
                       className="hover:scale-[1.025] w-28 h-auto transition-all object-contain object-center duration-300 z-10"
                       src={`http://localhost:1337${product.imageUrl}`}
@@ -108,7 +110,6 @@ const ProductSlider = () => {
                       </span>
                       <button className="CartBtn">
                         <span className="IconContainer">
-                          {/* Placeholder for cart icon */}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             height="1em"
