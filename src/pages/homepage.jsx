@@ -198,9 +198,9 @@ const HomePage = () => {
       <Product />
       <ProductSlider/>
       <Element/>
-      <Feature />
-      <Video/>
       <Pricing />
+      <Video/>
+      <Feature />
       <Footer />
     </>
   );
