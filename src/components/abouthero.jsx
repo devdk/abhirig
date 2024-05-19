@@ -53,7 +53,7 @@ export default function Abouthero() {
             <p className="md:mb-8  leading-relaxed about-content md:text-2xl opacity-0 text-justify md:text-center">Discover the ancient wisdom of Ayurveda with our curated collection of wellness solutions. Our mission is to offer holistic wellness experiences tailored to your unique needs. From herbal remedies to mindful practices, we're dedicated to helping you achieve  harmony.</p>
           </div>
         </div>
-      </section>
+{/*       </section>
       <section className="text-gray-600  body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -66,7 +66,7 @@ export default function Abouthero() {
             <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
