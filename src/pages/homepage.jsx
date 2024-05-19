@@ -171,7 +171,7 @@ const HomePage = () => {
 
         <img
           ref={itemRef}
-          src={features_product01}
+          src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/products/features_product01.png"
           title="SKU1"
           id="sku1"
           alt="P1"
@@ -179,7 +179,7 @@ const HomePage = () => {
         />
         <img
           ref={itemRef2}
-          src={features_product01}
+          src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/products/features_product01.png"
           title="SKU2"
           id="sku2"
           alt="P2"
@@ -187,7 +187,7 @@ const HomePage = () => {
         />
         <img
           ref={itemRef3}
-          src={features_product01}
+          src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/products/features_product01.png"
           title="SKU3"
           id="sku3"
           alt="P3"
