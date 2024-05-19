@@ -81,7 +81,7 @@ const Product = () => {
             <div className="lg:w-2/5 md:w-1/2 rounded-lg p-8 flex flex-col md:ml-auto mt-4 md:mt-0 items-center">
               <img
                 id={`product-img-${index}`}
-                src={product1}
+                src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/products/features_product01.png"
                 alt=""
                 className="w-1/2 h-auto mb-4 rounded-lg object-fit opacity-0"
               />
