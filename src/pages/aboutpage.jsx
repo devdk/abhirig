@@ -9,6 +9,7 @@ const AboutPage = ()=>{
     <>
     <Navbar/>
     <Abouthero/>
+    <Section />
     <Abtftr/>
     <section className="text-gray-600 body-font">
   <div className="container px-5 md:py-16 mx-auto">
