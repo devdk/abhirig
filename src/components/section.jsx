@@ -93,7 +93,7 @@ const Section = () => {
               ref={imageRef}
               className="object-cover object-center w-full h-full"
               alt="hero"
-              src="https://dummyimage.com/720x720" // Ensure equal width and height
+              src="https://themegenix.net/html/suxnix-preview/suxnix/assets/img/others/formula_img.png" // Ensure equal width and height
             />
           </div>
         </div>
