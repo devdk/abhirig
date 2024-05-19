@@ -2,6 +2,8 @@ import React from "react"
 import Navbar from "../components/navbar";
 import Abtftr from "../components/aboutfeature";
 import Abouthero from "../components/abouthero";
+import Section from "../components/section";
+import Video from "../components/video";
 import Footer from "../components/footer";
 
 const AboutPage = ()=>{
