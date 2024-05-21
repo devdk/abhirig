@@ -31,7 +31,7 @@ const Video = () => {
         <iframe
           ref={iframeRef}
           className="w-3/4 h-2/3"        
-          src="https://www.youtube.com/watch?v=I9kEztS8evA"
+          src="https://www.youtube.com/embed/ExOp1H7pJp8?si=ZexMnkNLs3JeFAE2"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
