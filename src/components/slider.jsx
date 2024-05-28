@@ -12,7 +12,7 @@ const ProductSlider = () => {
     const fetchProducts = async () => {
       try {
         const response = await fetch(
-          "http://localhost:1337/api/shops?populate=*"
+          `${VITE_BACKEND_BASE_URL}/api/shops?populate=*`
         );
         if (!response.ok) {
           throw new Error("Failed to fetch products");
@@ -90,7 +90,7 @@ const ProductSlider = () => {
                     {/* Product image */}
                     <img
                       className="hover:scale-[1.025] w-28 h-auto transition-all object-contain object-center duration-300 z-10"
-                      src={`http://localhost:1337${product.imageUrl}`}
+                      src={`${VITE_BACKEND_BASE_URL}${product.imageUrl}`}
                       alt={product.name}
                     />
                   </div>

@@ -33,13 +33,13 @@ const BlogPost = ({ blogs }) => {
               <img
                 alt="Blog Cover"
                 className="object-cover object-center h-full w-full"
-                src={`http://localhost:1337${blog.attributes.blogCover.data.attributes.url}`}
+                src={`${VITE_BACKEND_BASE_URL}${blog.attributes.blogCover.data.attributes.url}`}
               />
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-64 h-64 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                  {/* <img src=http://localhost:1337/uploads/thumbnail_photo_1492552181161_62217fc3076d_bf676092eb.jpeg alt="" className="w-full h-full object-cover" srcset="" /> */}
+                  {/* <img src=${VITE_BACKEND_BASE_URL}/uploads/thumbnail_photo_1492552181161_62217fc3076d_bf676092eb.jpeg alt="" className="w-full h-full object-cover" srcset="" /> */}
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">

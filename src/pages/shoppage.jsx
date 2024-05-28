@@ -157,7 +157,7 @@ const ShopPage = ({ shops }) => {
                   <Link to={`/shop/${shop.id}`}>
                     <img
                       className="p-4 rounded-t-lg mx-auto hover:scale-[1.1] transition-all aspect-w-16 aspect-h-9 duration-300 object-cover object-center"
-                      src={`http://localhost:1337${shop.attributes.productImage.data.attributes.url}`}
+                      src={`${VITE_BACKEND_BASE_URL}${shop.attributes.productImage.data.attributes.url}`}
                       alt={shop.attributes.productName}
                     />
                   </Link>
