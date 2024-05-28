@@ -28,12 +28,12 @@ const BlogPost = ({ blogs }) => {
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
             <h1 className="text-4xl text-center mb-8">{blog.attributes.blogTitle}</h1>
-            <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+            <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
             <div className="rounded-lg h-96 overflow-hidden">
               <img
                 alt="Blog Cover"
                 className="object-cover object-center h-full w-full"
-                src={`${VITE_BACKEND_BASE_URL}${blog.attributes.blogCover.data.attributes.url}`}
+                src={`${import.meta.env.VITE_BACKEND_BASE_URL}${blog.attributes.blogCover.data.attributes.url}`}
               />
             </div>
             <div className="flex flex-col sm:flex-row mt-10">

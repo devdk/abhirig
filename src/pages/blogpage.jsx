@@ -30,7 +30,7 @@ const BlogPage = ({ blogs }) => {
             >
               <div className="h-80 overflow-hidden rounded-t-lg">
                 <img
-                  src={`${VITE_BACKEND_BASE_URL}${blog.attributes.blogCover.data.attributes.url}`}
+                  src={`${import.meta.env.VITE_BACKEND_BASE_URL}${blog.attributes.blogCover.data.attributes.url}`}
                   alt=""
                   className="object-cover w-full h-full hover:scale-110 transition-transform duration-300 "
                 />
