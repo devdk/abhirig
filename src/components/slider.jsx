@@ -12,7 +12,7 @@ const ProductSlider = () => {
     const fetchProducts = async () => {
       try {
         const response = await fetch(
-          `${VITE_BACKEND_BASE_URL}/api/shops?populate=*`
+          `${import.meta.env.VITE_BACKEND_BASE_URL}/api/shops?populate=*`
         );
         if (!response.ok) {
           throw new Error("Failed to fetch products");
@@ -75,9 +75,9 @@ const ProductSlider = () => {
   return (
     <>
       <div className="container flex flex-col mx-auto py-24">
-        <h1 class="mb-10 uppercase text-2xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">
+        <h1 className="mb-10 uppercase text-2xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">
           Discover our
-          <span class="text-gold-100"> all range.. </span>
+          <span className="text-gold-100"> all range.. </span>
         </h1>
         {products.length > 0 ? (
           <Slider {...sliderSettings}>
@@ -90,7 +90,7 @@ const ProductSlider = () => {
                     {/* Product image */}
                     <img
                       className="hover:scale-[1.025] w-28 h-auto transition-all object-contain object-center duration-300 z-10"
-                      src={`${VITE_BACKEND_BASE_URL}${product.imageUrl}`}
+                      src={`${import.meta.env.VITE_BACKEND_BASE_URL}${product.imageUrl}`}
                       alt={product.name}
                     />
                   </div>
