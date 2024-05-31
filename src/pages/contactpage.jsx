@@ -45,7 +45,7 @@ const ContactPage = () => {
                 Office Address
               </h3>
               <p className="mt-2 w-2/3 text-center text-gray-600">
-                99 NY Address Street, Brooklyn, NY, United States
+                Pashupati Vihar, Opp. MJPRU Bly, India 243001
               </p>
             </div>
 
@@ -55,7 +55,7 @@ const ContactPage = () => {
                 Phone Number
               </h3>
               <p className="mt-2 w-2/3 text-center text-gray-600">
-                0122 2142 4241
+                +91 91057 11530
               </p>
               <p className="text-center text-gray-600">765 648 5678</p>
             </div>
@@ -66,9 +66,9 @@ const ContactPage = () => {
                 Web Connect
               </h3>
               <p className="mt-2 w-2/3 text-center text-gray-600">
-                info@suxnixmail.com
+                support@abhirigayuveda.com
               </p>
-              <p className="text-center text-gray-600">suxnixexample.com</p>
+              <p className="text-center text-gray-600">abhirig.com</p>
             </div>
           </div>
 
@@ -85,7 +85,9 @@ const ContactPage = () => {
             </div>
             <div className="mt-8 lg:mt-0 lg:w-3/4 bg-white p-6">
               <h3 className="md:text-5xl text-lg p-4  uppercase font-semibold tracking-tighter mb-4">
-                Asked Anything You Want to Know
+                Have questions or inquiries? Reach out to us! Our team at AbhiRig Ayurveda is here to assist you on your wellness journey. 
+                 Connect with us today!
+
               </h3>
               <form onSubmit={handleSubmit} className="">
                 <div className="mb-4 p-2 flex gap-4">
