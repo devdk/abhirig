@@ -57,7 +57,7 @@ const ContactPage = () => {
               <p className="mt-2 w-2/3 text-center text-gray-600">
                 +91 91057 11530
               </p>
-              <p className="text-center text-gray-600">765 648 5678</p>
+              <p className="text-center text-gray-600"></p>
             </div>
 
             <div className="w-full flex-col flex items-center justify-center bg-white mx-auto md:p-12 shadow-md">
