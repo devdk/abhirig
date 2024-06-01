@@ -47,17 +47,17 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="https://www.linkedin.com/abhirigayurveda/" className="hover:underline">
                     LinkedIn
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="https://www.facebook.com/abhirigayurveda/" className="hover:underline">
                     Facebook
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="https://www.instagram.com/abhirigayurveda/" className="hover:underline">
                     Instagram
                   </a>
                 </li>
