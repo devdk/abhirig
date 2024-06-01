@@ -45,12 +45,11 @@ const Section = () => {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-justify">
             <h1 className="title-font mt-6 text-xl md:text-4xl mb-4 font-semibold ">
-              Discover the Power of Ayurveda
+              Elevate Your well-being with our premium ayurvedic medicines
             </h1>
             <p className="mb-8 leading-relaxed">
-              Elevate your well-being with our premium Ayurvedic supplements.
-              Crafted from natural ingredients, our supplements are designed to
-              promote balance and vitality in your life.
+              Experience thepinnacle of wellness with our premium ayurvedic medicines. Carefully crafted from natural ingredients, 
+              our medicines are formulated to promote vitality and balance in your life.
             </p>
             <div className="md:flex justify-around mt-4 gap-10 w-full md:text-3xl text-xl">
               <div className="text m-2">
@@ -60,8 +59,7 @@ const Section = () => {
                 />
                 <p className="text-md mt-4">Heart Health</p>
                 <p className="text-sm text-white mt-3">
-                  Support cardiovascular wellness with our heart-boosting
-                  supplements.
+                  Nurture cardiovascular wellness with our heart-enhancing ayurvedic medicines.
                 </p>
               </div>
               <div className="text m-2">
@@ -71,8 +69,7 @@ const Section = () => {
                 />
                 <p className="text-md mt-4">Natural Ingredients</p>
                 <p className="text-sm text-white mt-3">
-                  Harness the power of nature with our carefully selected
-                  natural ingredients.
+                  Unlock the potency of nature with our thoughtfully chosen natural elements.
                 </p>
               </div>
               <div className="text m-2">
@@ -82,8 +79,7 @@ const Section = () => {
                 />
                 <p className="text-md mt-4">Mental Well-being</p>
                 <p className="text-sm text-white mt-3">
-                  Nurture your mind and spirit with our supplements for mental
-                  wellness.
+                  Nourish your mind and spirit with our ayurvedic medicines for mental well-being.
                 </p>
               </div>
             </div>
