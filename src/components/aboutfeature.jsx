@@ -11,64 +11,60 @@ export default function Abtftr() {
                 Discover Our Unique Features
               </h1>
               <p className="max-w-96 text-gray-900 md:text-xl mx-auto">
-                Our features are designed to enhance your productivity and
-                streamline your workflow.
+                Our offerings are designed to enhance your health and well-being naturally through the power of ayurveda.
               </p>
             </div>
             <div className="w-full max-w-full space-y-4 mx-auto">
               <div className="grid md:grid-cols-3 grid-rows-3 gap-8">
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
                   <h2 className=" text-lg md:text-xl font-bold text-black">
-                    Smart Inbox
+                    Premium Quality
                   </h2>
                   <p className="text-gray-900">
-                    Our Smart Inbox feature helps you manage your emails
-                    efficiently by prioritizing important emails.
+                    Experience the finest ayurvedic products made from the highest quality natural ingredient,
+                    ensuring purity and effectiveness.
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
                   <h2 className=" text-lg md:text-xl font-bold text-black">
-                    Seamless Integration
+                    Holistic Healing
                   </h2>
                   <p className="text-gray-900">
-                    Seamless Integration allows you to connect with your
-                    favorite apps and services without leaving your inbox.
+                    Our remedies are crafted to promote holistic healing,
+                    addressing the root cause of ailments and fostering overall wellness.
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
                   <h2 className=" text-lg md:text-xl font-bold text-black">
-                    Advanced Customization
+                  Personalized Solution
                   </h2>
                   <p className="text-gray-900">
-                    With Advanced Customization, you can personalize your email
-                    client to suit your preferences and work style.
+                    With personalized ayurvedic solution, you can tailor your wellness journey to suit your individual health needs and lifestyle.
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
                   <h2 className=" text-lg md:text-xl font-bold text-black">
-                    Powerful Search
+                    Sustainable Practices
                   </h2>
                   <p className="text-gray-900">
-                    Our Powerful Search feature allows you to find any email,
-                    contact, or file in seconds.
+                   We are commited to sustainability, ensuring our products are environment friendly and ethically sourced.
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
                   <h2 className=" text-lg md:text-xl font-bold text-black">
-                    Reliable Security
+                    Trusted Expertise
                   </h2>
                   <p className="text-gray-900">
-                    With Reliable Security, your data is always safe and
-                    protected.
+                    Backed by the ancient wisdom of ayurveda and modern research, our products are formulated by experts you can trust.
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
                   <h2 className=" text-lg md:text-xl font-bold text-black">
-                    Easy Collaboration
+                  Commitment to the earth
                   </h2>
                   <p className="text-gray-900">
-                    Easy Collaboration allows you to share and edit documents
-                    with your team in real time.
+                    Our dedication to sustainability is unwavering, reflected in our eco-conscious practices and responsibly sourced ingredients,
+                    ensuring a healthier planet for generation to come.
                   </p>
                 </div>
               </div>
