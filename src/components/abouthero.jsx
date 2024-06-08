@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import Typed from 'typed.js';
 import gsap from "gsap";
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.png';
+import Hair care from '../assests/Hair care.png';
 export default function Abouthero() {
   const typedRef = useRef(null);
   const logoRef = useRef(null);
