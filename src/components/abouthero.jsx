@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Typed from 'typed.js';
 import gsap from "gsap";
 import logo from '../assets/logo.png';
-import Haircareills from '../assets/Haircareills.png';
+// import Haircareills from '../assets/Haircareills.png';
 export default function Abouthero() {
   const typedRef = useRef(null);
   const logoRef = useRef(null);
@@ -45,7 +45,7 @@ export default function Abouthero() {
             ref={logoRef}
             className="lg:w-2/6 md:w-3/6 w-4/6 mb-10 mt-6 object-cover object-center rounded" 
             alt="Abhirig" 
-            src={Haircareills}
+            src={logo}
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="text-transparent font-semibold mb-8 bg-clip-text bg-gradient-to-r lg:text-4xl text-xl  to-gold-100 from-yellow-400 via-lightGreen">
