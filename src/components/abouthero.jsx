@@ -44,7 +44,7 @@ export default function Abouthero() {
             ref={logoRef}
             className="lg:w-2/6 md:w-3/6 w-4/6 mb-10 mt-6 object-cover object-center rounded" 
             alt="Abhirig" 
-            src={Hair care}
+            src={logo}
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="text-transparent font-semibold mb-8 bg-clip-text bg-gradient-to-r lg:text-4xl text-xl  to-gold-100 from-yellow-400 via-lightGreen">
