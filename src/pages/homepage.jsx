@@ -143,7 +143,7 @@ const HomePage = () => {
             className="w-44 hidden md:block absolute h-44 -rotate-12 right-14 top-40"
           />
           <p className="text-sm font-bold lowercase text-gold-100 md:text-xl">
-            ..Harmonize Your Being
+            Abhirig Presents
           </p>
           <h1 className="mb-4 mt-4 text-lg font-semibold text-slate-500 md:text-2xl lg:text-3xl uppercase">
             <span className="text-transparent bg-clip-text bg-gradient-to-r lg:text-5xl to-green-400 from-gold-100 via-indigo-600">
