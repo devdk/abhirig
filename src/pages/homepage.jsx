@@ -200,7 +200,7 @@ const HomePage = () => {
       <Video/>
       <Pricing />
       <Element/>
-{/*       <Feature /> */}
+      <Feature />
       <Footer />
     </>
   );
