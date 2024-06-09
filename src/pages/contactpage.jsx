@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
+import Element from "../components/element";
 import Footer from "../components/footer";
 import {
   RiCustomerServiceLine,
@@ -176,6 +177,7 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
+      <Element/>
       <Footer />
     </>
   );
