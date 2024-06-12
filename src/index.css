@@ -6,6 +6,9 @@
 *::selection{
   color: #1f1f1f
 }
+html{
+  font-size: 90%
+}
 
 ::-webkit-scrollbar {
     width: 4px; 
